@@ -78,12 +78,12 @@ a {
 
 /* Main content top segment */
 #main_content {
-	padding:                4.56em 3.9em;
+  padding:                73px 62px;
 }
 
 #subnavigation {
-	padding:                0;
-	margin:                 -1.85em 0 2.3em 0;
+  padding:                0;
+  margin:                 -1.6em 0 2.3em 0;
 }
 
 #subnavigation a {
@@ -91,11 +91,11 @@ a {
 }
 
 #subnavigation a, #see_data_sheet {
-	padding-left:           20px;
+  padding-left:           20px;
 }
 
 h1 {
-	margin-bottom:          0.7em;
+  margin-bottom:          0.7em;
 }
 body#selection h1 {
 	float:                  left;
@@ -317,7 +317,7 @@ body.videos #thumbnails img {
 
 #big_picture img {
   padding:                2px;
-	border:                 1px solid;
+  border:                 1px solid;
 }
 
 #big_picture label {
@@ -390,7 +390,7 @@ body.videos #thumbnails img {
 }
 
 #selected_pictures {
-	width: 410px;
+/*  width: 410px;*/
 }
 
 #all_pictures li label, #all_pictures li a, 
@@ -522,6 +522,10 @@ input:hover, textarea:hover {
 	border:                 1px solid;
 }
 
+button, button * {
+	outline:                none;
+}
+
 button {
 	display:                block;
   padding:                .2em .5em;
@@ -541,10 +545,6 @@ button:active {
 	border-style:           outset;
 }
 
-button * {
-	outline:                none;
-}
-
 #submit_error, #submit_success {
 	padding:                .5em 8em;
 	margin-bottom:          1em;
@@ -552,55 +552,17 @@ button * {
 
 /* Specific for checkout e-mail form */                 /* WARNING: includes "pictures_sent" bug! */
 body#checkout #order_form, 
-body#checkout form label, 
-body#pictures_sent #order_form, 
-body#pictures_sent form label {
-  position:               relative;
-}
-
-body#checkout #order_form, 
 body#pictures_sent #order_form {
-/*  float:                  right;*/
-/*  top:                    -128px;*/
-  position:               absolute;
-  top:                    272px;
-  right:                  70px;
-}
-
-body#checkout #order_form p, 
-body#pictures_sent #order_form p {
-  padding-left:            11em;
-}
-
-body#checkout form label, 
-body#pictures_sent form label {
-  left:                   100px;
-}
-
-body#checkout input, 
-body#pictures_sent input {
-  width:                  48%;
-  padding:                0 .3em;
-  border:                 1px inset;
-  margin-top:             -1.25em;
-  margin-right:           0;
-  margin-bottom:          .75em;
-}
-
-body#checkout button, 
-body#pictures_sent button {
-  float:                  right;
+  margin-top:             1.5em;
 }
 
 body#pictures_sent #submit_error {
-  position:               absolute;
-  top:                    200px;
-  right:                  60px;
+  margin:                 2em 0 -2em 0;
 }
 
 /* Specific for global search form */
 #global_search {
-	width:                  7.5em;
+	width:                  9em;
 	padding-left:           25px;
 	position:               absolute;
 	top:                    .8em;
