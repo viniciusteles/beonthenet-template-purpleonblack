@@ -190,10 +190,15 @@ body.videos #thumbnails img {
 
 
 /* Summary */
-#summary, #about_us, #data_sheet, .error_hints {
+#summary, #about_us, #data_sheet, .error_hints, #picture_description {
 	padding:                .65em 7.5em;
 	border:                 1px solid;
   margin-bottom:          10px;
+}
+
+#summary, #picture_description {
+	position:               relative;
+	clear:                  both;
 }
 
 #summary {
@@ -201,9 +206,8 @@ body.videos #thumbnails img {
 	height:                 auto !important;
 	height:                 4.5em;
 	padding-right:          20em;
-	position:               relative;
-	clear:                  both;
 }
+
 /* /Summary */
 
 
