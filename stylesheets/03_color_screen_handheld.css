@@ -79,7 +79,7 @@ h4, h4 a {
 	background-image:       url(../images/tab_corner_left_current.gif);	
 }
 
-#header li.current a {
+#header li.current a, #header li.current a:visited {
 	color:                  #FFF;
 	background-image:       url(../images/tab_corner_right_current.gif);
 }
