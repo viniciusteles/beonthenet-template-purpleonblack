@@ -48,7 +48,7 @@ a {
 #header h1#logo_screen {
   height:                 60px;
   margin:                 0px;
-  padding:                13px 40px 14px 40px;
+  padding:                22px 40px 5px 40px;
   position:               absolute;
   top:                    0px;
   left:                   60px;
@@ -173,12 +173,12 @@ body.videos#index ul#thumbnails li div a {
 body.videos #thumbnails h3 {
   height:                 2em;
   width: 250px;
-  top: 215px;
+  top: 225px;
   padding: 5px;
 }
 
 body.videos #thumbnails h4 {
-  top: 205px;
+  top: 215px;
   padding: 5px;
 }
 
@@ -250,7 +250,7 @@ body.videos #thumbnails img {
 
 .second {
   position:               relative;
-  bottom:                 35px;
+  bottom:                 15px;
 }
 /* /Paging */
 

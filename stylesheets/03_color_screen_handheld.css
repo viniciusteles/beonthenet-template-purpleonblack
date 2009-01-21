@@ -152,17 +152,19 @@ body.videos ul#thumbnails li div a:visited {
 	background:             #000 url(../images/thumbnail_box_visited.gif);
 }
 
-body.videos #thumbnails h3 a {
-	color: #fff;
-}
-
-body.videos #thumbnails h3 a:hover {
-	color: #6E596E;
-}
-
 body.videos #thumbnails h4 a {
   color:                  #888;
 }
+
+body.videos #thumbnails h3 a, body.videos #thumbnails h4 a:hover {
+	color: #CCC;
+}
+
+body.videos #thumbnails h3 a:hover {
+	color: #FFF;
+}
+
+
 
 
 
