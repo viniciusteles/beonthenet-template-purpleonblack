@@ -285,6 +285,10 @@ ul#thumbnails a:hover label {
 
 
 /* Big picture, big video */
+#big_picture, #big_video {
+  border-color:           #333;
+}
+
 #big_picture a span, #big_video span {
 	background:             transparent url(../images/arrow_previous.gif) no-repeat top right;
 }
