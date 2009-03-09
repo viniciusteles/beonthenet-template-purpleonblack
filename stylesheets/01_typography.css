@@ -48,6 +48,11 @@ h4 a:focus, h4 a:hover {
   text-align:             center;
 }
 
+#slogan {
+  font-size:              90%;
+  text-align:             right;
+}
+
 #header ul {
   text-align:             right;
 }
