@@ -411,19 +411,6 @@ body#selection #selection_size label {
 /* /Selection */
 
 
-/* Who */
-.quem_somos dt, 
-.quem_somos #main_content strong {
-	color:	#000;
-  	background-color:                  #6E596E;
-}
-
-.quem_somos cite {
-	background:             transparent url(../images/foto_levi.jpg) no-repeat bottom right;             /* EXCLUSIVO DO LEVI PEREIRA */
-}
-/* /Who */
-
-
 /* Forms (contact, checkout, search) */
 form label {
 	background: none;
@@ -546,37 +533,35 @@ body#timeout #main_content h2 {
 /* /Footer */
 
 
-
-/* Instructions */
-body.instructions #toc {
-  background:             #EFE3C3;
-  border-color:           #E0C99B;
+/* Text */
+.text dt, 
+.text #main_content strong {
+	color:                  #FFF;
+  background-color:       #6E596E;
 }
 
-body.instructions #main_content dt {
-  color:                  #6E596E;
+.text dt a, .text dt a:hover {
+  color:                  #FFF;
 }
 
 code {
-  color:                  #111;
-  background:             #EFE3C3; 
+  color:                  #EEE;
 }
 
-.instructions table * {
-  border-color:           #E0C99B;
+.text table * {
+  border-color:           #6E596E;
 }
 
-.instructions th {
-  color:                  #6E596E;
-  background:             #EFE3C3;
+.text th {
+  color:                  #FFF;
+  background:             #444;
 }
 
-.instructions td span {
-  color:                  #BAA984;
+.text td span {
+  color:                  #555  ;
 }
 
 pre {
-  background:             #EFE3C3;
-  border-color:           #E0C99B;
+  border-color:           #6E596E;
 }
-/* /Instructions */
+/* /Text */
