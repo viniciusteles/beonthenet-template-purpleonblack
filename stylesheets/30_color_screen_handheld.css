@@ -103,7 +103,6 @@ body#picture #main_content, body#search_picture #main_content, body.videos#index
 /*  background:       #333 url(../images/main_content_background_picture.gif) no-repeat;*/
 }
 
-
 #go_back_to_thumbnails {
 	background:             transparent url(../images/arrow_left.gif) no-repeat left center;
 	color:					#CCCCCC;
@@ -113,7 +112,6 @@ body#picture #main_content, body#search_picture #main_content, body.videos#index
 	background:             transparent url(../images/arrow_left_hover.gif) no-repeat left center;
 	color:					#fff;
 }
-
 
 #go_to_gallery {
 	background:             transparent url(../images/gallery_album.gif) no-repeat left center;
@@ -128,8 +126,28 @@ body#picture #main_content, body#search_picture #main_content, body.videos#index
 	background:             transparent url(../images/arrow_down_hover.gif) no-repeat left center;
 	color: #fff;
 }
-
 /* /Main content top segment */
+
+
+/* Flickr */
+#main_content h5 a, #big_picture cite a {
+  background:         transparent url(../images/flickr_logo.png) no-repeat left;
+}
+
+#thumbnails cite a {
+  background:         transparent url(../images/flickr.png) no-repeat left 6px;
+}
+#thumbnails cite a:hover {
+  background-image:   url(../images/flickr_hover.png);
+}
+
+body #footer h6 {
+  color:              #555;
+}
+body #footer h6 em {
+  color:              #888;
+}
+/* /Flickr */
 
 
 /* Thumbnails */
